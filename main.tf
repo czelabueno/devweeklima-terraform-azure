@@ -1,9 +1,9 @@
 
 provider "azurerm" {
-  subscription_id = "8a3b18bc-0956-4a70-9dcd-ebf0f32994f2"
-  client_id       = "caa78e0d-dcbe-4d55-9567-d8f1e19b2f49"
+  subscription_id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  client_id       = "yyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"
   client_secret   = "${var.client_secret}"
-  tenant_id       = "00feae2f-290d-4b3c-a815-df921de5c0db"
+  tenant_id       = "zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz"
 }
 
 resource "azurerm_resource_group" "devweek_rg" {
